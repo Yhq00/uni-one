@@ -1,8 +1,11 @@
 <template>
 	<view>
+<<<<<<< HEAD
 		<!-- 使用自定义的搜索组件 -->
 		<!-- <my-search></my-search> -->
 		<my-search :bgcolor="'pink'" :radius="3" @myclick="gotoSearch"></my-search>
+=======
+>>>>>>> a19e93934b28f560e99113aa54a84f33077a7f00
 		
 		<view class="scroll-view-container">
 			<!-- 左侧滑动区域 -->
@@ -56,7 +59,11 @@
 		},
 		onLoad(){
 			const sysInfo = uni.getSystemInfoSync()
+<<<<<<< HEAD
 			this.wh = sysInfo.windowHeight - 50
+=======
+			this.wh = sysInfo.windowHeight
+>>>>>>> a19e93934b28f560e99113aa54a84f33077a7f00
 			//调用获取分类列表数据的方法
 			this.getCateList()
 		},
@@ -85,6 +92,7 @@
 				uni.navigateTo({
 					url:'/subpkg/goods_list/goods_list?cid=' + item.cat_id
 				})
+<<<<<<< HEAD
 			},
 			gotoSearch(){
 				uni.navigateTo({
@@ -93,6 +101,10 @@
 			}
 		},
 
+=======
+			}
+		}
+>>>>>>> a19e93934b28f560e99113aa54a84f33077a7f00
 	}
 </script>
 

@@ -1,9 +1,13 @@
 <template>
+<<<<<<< HEAD
 	<view>
 		<!-- 搜索组件 -->
 		<view class="search-box">
 			<my-search :bgcolor="'pink'" :radius="3" @myclick="gotoSearch"></my-search>
 		</view>
+=======
+	<view>
+>>>>>>> a19e93934b28f560e99113aa54a84f33077a7f00
 		<!-- 轮播图区域 -->
 		<swiper :indicator-dots="true" :autoplay="true" :interval="3000" :duration="1000" :circular="true">
 			<swiper-item v-for="(item,i) in swiperList" :key="i">
@@ -97,12 +101,16 @@
 						url:"/pages/cate/cate"
 					})
 				}
+<<<<<<< HEAD
 			 },
 			gotoSearch(){
 				uni.navigateTo({
 					url:'/subpkg/search/search'
 				})
 			}
+=======
+			 }
+>>>>>>> a19e93934b28f560e99113aa54a84f33077a7f00
 		}
 		
 	}
@@ -141,10 +149,13 @@ swiper{
 .floor-img-box{
 	display: flex;
 	padding-left: 10rpx;
+<<<<<<< HEAD
 }
 .search-box{
 	position: sticky;
 	top: 0;
 	z-index: 999;
+=======
+>>>>>>> a19e93934b28f560e99113aa54a84f33077a7f00
 }
 </style>

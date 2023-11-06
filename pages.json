@@ -2,21 +2,53 @@
 	"pages": [ 
 		{
             "path" : "pages/home/home",
+<<<<<<< HEAD
             "style":{}
+=======
+            "style" :                                                                                    
+            {
+                // "navigationBarTitleText": "",
+                // "enablePullDownRefresh": false
+            }
+>>>>>>> a19e93934b28f560e99113aa54a84f33077a7f00
             
         },
 		{
             "path" : "pages/cate/cate",
+<<<<<<< HEAD
             "style":{}
+=======
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+>>>>>>> a19e93934b28f560e99113aa54a84f33077a7f00
             
         },
 		{
 			"path" : "pages/cart/cart",
+<<<<<<< HEAD
             "style":{}
 		},
 		{
 			"path" : "pages/my/my",
             "style":{}
+=======
+			"style" :                                                                                    
+			{
+			    "navigationBarTitleText": "",
+			    "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/my/my",
+			"style" :                                                                                    
+			{
+			    "navigationBarTitleText": "",
+			    "enablePullDownRefresh": false
+			}
+>>>>>>> a19e93934b28f560e99113aa54a84f33077a7f00
 		}
     ],
 	"subPackages": [
@@ -24,6 +56,7 @@
 			"root": "subpkg",
 			"pages": [{
 				"path" : "goods_detail/goods_detail",
+<<<<<<< HEAD
 	            "style":{}
 			},
 			{
@@ -32,6 +65,16 @@
 			},
 			{
 				"path" : "search/search",
+=======
+				"style" : 
+				{
+					"navigationBarTitleText" : "",
+					"enablePullDownRefresh" : false
+				}
+			},
+			{
+				"path" : "goods_list/goods_list",
+>>>>>>> a19e93934b28f560e99113aa54a84f33077a7f00
 				"style" : 
 				{
 					"navigationBarTitleText" : "",
@@ -43,10 +86,17 @@
 		}
 	],
 	"globalStyle": {
+<<<<<<< HEAD
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "为啥不显示",
 		"navigationBarBackgroundColor": "#C00000",
 		"backgroundColor": "#FFFFFF",
+=======
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "为啥不显示",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#d33ef8",
+>>>>>>> a19e93934b28f560e99113aa54a84f33077a7f00
 		"app-plus": {
 			"background": "#efeff4"
 		}
