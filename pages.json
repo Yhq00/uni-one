@@ -60,16 +60,16 @@
 				"selectedIconPath": "static/icons/home-active.png"
 			},
 			{
-				"pagePath":"pages/cart/cart",
-				"text": "购物车",
-				"iconPath": "static/icons/home.png",
-				"selectedIconPath": "static/icons/home-active.png"
-			},
-			{
 				"pagePath": "pages/cate/cate",
 				"text": "分类",
 				"iconPath": "static/icons/message.png",
 				"selectedIconPath": "static/icons/message-active.png"
+			},
+			{
+				"pagePath":"pages/cart/cart",
+				"text": "购物车",
+				"iconPath": "static/icons/home.png",
+				"selectedIconPath": "static/icons/home-active.png"
 			},
 			{
 				"pagePath": "pages/my/my",
