@@ -71,7 +71,7 @@
 					this.showTips(this.seconds)
 				},1000)
 			},
-			//倒计时提示
+			//倒计时提示 
 			showTips(n) {
 				uni.showToast({
 					icon:'none',
